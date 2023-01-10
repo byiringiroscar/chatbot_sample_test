@@ -36,6 +36,6 @@ async def predict(item: schemas.Item):
     response = get_response(item.message)
     message = {"answer": response}
     return message
-# code for dev branch
+# code for new branch
 if __name__ == "__main__":
     uvicorn.run(app)
